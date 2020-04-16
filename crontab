@@ -1,0 +1,4 @@
+*/5 * * * * curl "http://192.168.1.4:86/Enterprise/server/plugins/Elvis/sync.php?maxexectime=300&maxtimeoutperrun=20"
+*/5 * * * * echo "Cronjob" >> /var/log/cron.log 2>&1
+
+# Don't remove the empty line at the end of this file. It is required to run the cron job
